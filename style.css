@@ -1,0 +1,358 @@
+*{margin:0px; padding:0px; outline:0px;}
+
+body{
+	font-family:arial;
+    font-size:14px;
+    line-height:18px;
+    color:black;
+    background:url(image/img_2_blank.jpg) repeat fixed white; position:relative;
+}
+.template{width:1120px;margin:0 auto;}
+.clear{overflow:hidden;}
+
+.container {
+	width: 1120px;
+	height: 1134px;
+	margin: 0px auto;
+	background-color: blanchedalmond;
+}
+.header{}
+
+.image {
+	padding: 5px;
+	background-color: rgb(81, 31, 164);
+	border-style: outset;
+}
+
+.slider {
+	background-color: #D6D6D6;
+	border-radius: 9px;
+	font-size: 20px;
+	font-style: italic;
+	font-family: cursive;
+	padding-top: 0px;
+	padding-bottom: 7px;
+	color: #4A13C8;
+}
+/*============================================
+        Menu Bar Area Css Start
+ ==============================================*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: RGBA(35, 81, 176, 0.81);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family:Nirmala UI;
+}
+.menu_icon{
+	width: 19px;
+	height: 24px;
+	margin-top: -12px;
+	margin-bottom: -5px;
+	margin-right: 6px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9ACD32;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search_box {
+	float: right;
+	margin: -36px 30px 0px 0px;
+	width: 176px;
+	height: 27px;
+	background: url(image/tooplate_search.png) no-repeat;
+}
+
+.search_box form { 
+	clear: both; 
+	width: 170px; 
+	height: 26px; 
+	padding: 0; 
+	margin: 0; 
+} 
+
+.searchfield {
+	float: left;
+	display: block;
+	height: 26px;
+	width: 130px;
+	padding: 5px;
+	font-size: 12px;
+	color: #ccc;
+	line-height: 0;
+	background: none;
+	border: none;
+}
+
+.searchbutton { 
+	float: right; 
+	display: block; 
+	height: 26px; 
+	width: 30px; 
+	padding: 0; 
+	margin: 0; 
+	cursor: pointer; 
+	background: none; 
+	border: none; 
+}
+/*============================================
+        Menu Bar Area Css End
+ ==============================================*/
+.maincontent {
+	width: 1120px;
+	padding: 0px;
+	outline: 0px none;
+	height: 866px;
+	background: #44FFFF;
+}
+
+
+
+/*লেখার স্টাইল  ফন্ট  সিএসএস শুরু*/
+@font-face {
+    font-family: 'vtks_deja_vuregular';
+    src: url('fonts/vtks_deja_vu-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vtks_deja_vu-webfont.woff2') format('woff2'),
+         url('fonts/vtks_deja_vu-webfont.woff') format('woff'),
+         url('fonts/vtks_deja_vu-webfont.svg#vtks_deja_vuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.maincontent_title p {
+	font-family: vtks_deja_vuregular;
+	text-align: center;
+	font-size: 65px;
+	color: #9400D3;
+	margin-top: 27px;
+}
+
+/*লেখার স্টাইল  ফন্ট  সিএসএস শেষ*/
+
+
+
+
+
+.left_content {
+	width: 661px;
+	background: gainsboro;
+	padding: 5px;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-top-style: double;
+}
+.left_content h1{
+	font-family: sutonnymjregular;
+text-align: center;
+color: rgba(135, 35, 106, 0.93);
+
+margin-top: 10px;
+padding: 10px;
+margin-bottom: 4px;
+border-bottom: 4px double;
+}
+.left_content p {
+	font-family: sutonnymjregular;
+	font-size: 18px;
+	line-height: 31px;
+}
+
+
+/*বাংলা লেখার ফন্ট */
+@font-face {
+    font-family: 'sutonnymjregular';
+    src: url('fonts/sutonnymj-regular-webfont.woff2') format('woff2'),
+         url('fonts/sutonnymj-regular-webfont.woff') format('woff'),
+         url('fonts/sutonnymj-regular-webfont.svg#sutonnymjregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+.down_content {
+	height: 363px;
+	margin-top: 5px;
+	width: 661px;
+	background: white;
+	padding: 5px;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-top-style: double;
+}
+.right_content1 {
+	float: right;
+	width: 321px;
+	background: white;
+}
+.right_content1 h1 {
+	font-family:sutonnymjregular;
+	color: green;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 7px;
+}
+.right_content1 p {
+	font-family: sutonnymjregular;
+	font-size: 17px;
+	line-height: 4px;
+	margin-left: 99px;
+	margin-top: 14px;
+	letter-spacing: 1px;
+	color: rgba(249, 65, 16, 0.95);
+}
+.left_content1{
+	width: 303px;
+float: left;
+}
+
+.right_content {
+	float: right;
+	width: 453px;
+	height: 364px;
+	background: white;
+	margin-top: -781px;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-style: dotted;
+}
+.down_content1 {
+	background:  #ae3acb none repeat scroll 0% 0%;
+	width: 453px;
+	height: 414px;
+	margin-top: 4px;
+	border-top-style: inherit;
+	border-left-style: dotted;
+	border-bottom-style: dotted;
+	margin-left: -3px;
+}
+.down_content1 p {
+	font-family: sutonnymjregular;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+	background: blue;
+	padding: 10px;
+	color: antiquewhite;
+	border-radius: 11px;
+}
+.down_content1 video {
+	width: 450px;
+	height: 335px;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+
+/*=======================================
+         Footer Area start
+=========================================*/
+.footer {
+	background-color: rgb(76, 110, 181);
+	height: 149px;
+}
+
+.footer_maincontent {
+	width: 1120px;
+	height: 122px;
+	background: #80348c;
+}
+.footer p{
+	text-align: center;
+color: antiquewhite;
+}
+.left_footercontent {
+	float: left;
+	width: 373px;
+	height: 122px;
+}
+.left_footercontent h1 {
+	text-align: center;
+	font-size: 20px;
+	margin: 6px;
+	color: black;
+}
+.left_footercontent p {
+	text-align: left;
+	margin-left: 52px;
+	font-size: 14px;
+	color: white;
+}
+.center_footercontent {
+	float: left;
+	width: 373px;
+	height: 122px;
+	text-align: center;
+}
+.right_footercontent {
+	float: right;
+	width: 373px;
+	height: 122px;
+	text-align: center;
+	padding-top: 4px;
+}
+.right_footercontent h1 {
+	text-align: center;
+	font-size: 20px;
+	padding-right: 3px;
+}
+.social {
+	float: right;
+	padding-top: 14px;
+	width: 372px;
+	padding-right: 11px;
+}
+.social img {
+	padding-right: 5px;
+	width: 57px;
+}
